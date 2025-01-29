@@ -1,14 +1,13 @@
-<html>
-<body>
- <script>
+
  
- var nickname = prompt("Name:");
- var height = prompt("Height:");
- var weight = prompt("Weight:");	
+var nickname = "Dan";
+var height = 56;
+var weight = 35;
 
- alert("Name: " + nickname +  "</br> Height: " + height + "</br>" + "Weight: " + weight);
+var feet = parseInt(height) / 12;
+var inches = parseInt(height) % 12;
 
+var lbs = weight * 2.20462;
 
- </script>
-</body>
-</html>
+alert("Name: " + nickname +  "\nHeight: " + parseInt(feet) + "'" + inches + "\" \nWeight: " + lbs + " lbs");
+
